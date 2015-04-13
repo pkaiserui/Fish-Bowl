@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		847A951E1ADC68DA000E07A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A951D1ADC68DA000E07A7 /* AppDelegate.swift */; };
+		847A95201ADC68DA000E07A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A951F1ADC68DA000E07A7 /* ViewController.swift */; };
+		847A95231ADC68DA000E07A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847A95211ADC68DA000E07A7 /* Main.storyboard */; };
+		847A95251ADC68DA000E07A7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 847A95241ADC68DA000E07A7 /* Images.xcassets */; };
+		847A95281ADC68DA000E07A7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 847A95261ADC68DA000E07A7 /* LaunchScreen.xib */; };
+		847A95341ADC68DA000E07A7 /* Fish_BowlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A95331ADC68DA000E07A7 /* Fish_BowlTests.swift */; };
+		847A953E1ADC7214000E07A7 /* AddWordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A953D1ADC7214000E07A7 /* AddWordsViewController.swift */; };
+		847A95401ADC7284000E07A7 /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A953F1ADC7284000E07A7 /* PlayViewController.swift */; };
+		847A95421ADC7344000E07A7 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A95411ADC7344000E07A7 /* ResultsViewController.swift */; };
+		847A95601ADC7647000E07A7 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A95441ADC7647000E07A7 /* BlurView.swift */; };
+		847A95611ADC7647000E07A7 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A95451ADC7647000E07A7 /* Data.swift */; };
+		847A95621ADC7647000E07A7 /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A95461ADC7647000E07A7 /* DesignableButton.swift */; };
+		847A95631ADC7647000E07A7 /* DesignableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A95471ADC7647000E07A7 /* DesignableImageView.swift */; };
+		847A95641ADC7647000E07A7 /* DesignableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A95481ADC7647000E07A7 /* DesignableLabel.swift */; };
+		847A95651ADC7647000E07A7 /* DesignableTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A95491ADC7647000E07A7 /* DesignableTabBarController.swift */; };
+		847A95661ADC7647000E07A7 /* DesignableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A954A1ADC7647000E07A7 /* DesignableTextField.swift */; };
+		847A95671ADC7647000E07A7 /* DesignableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A954B1ADC7647000E07A7 /* DesignableTextView.swift */; };
+		847A95681ADC7647000E07A7 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A954C1ADC7647000E07A7 /* DesignableView.swift */; };
+		847A95691ADC7647000E07A7 /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = 847A954D1ADC7647000E07A7 /* Icon */; };
+		847A956A1ADC7647000E07A7 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A954E1ADC7647000E07A7 /* ImageLoader.swift */; };
+		847A956B1ADC7647000E07A7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 847A954F1ADC7647000E07A7 /* Info.plist */; };
+		847A956C1ADC7647000E07A7 /* KeyboardAvoidingScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A95501ADC7647000E07A7 /* KeyboardAvoidingScrollView.swift */; };
+		847A956D1ADC7647000E07A7 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A95511ADC7647000E07A7 /* LoadingView.swift */; };
+		847A956E1ADC7647000E07A7 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 847A95521ADC7647000E07A7 /* LoadingView.xib */; };
+		847A956F1ADC7647000E07A7 /* Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A95531ADC7647000E07A7 /* Misc.swift */; };
+		847A95701ADC7647000E07A7 /* Spring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A95551ADC7647000E07A7 /* Spring.swift */; };
+		847A95711ADC7647000E07A7 /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A95561ADC7647000E07A7 /* SpringAnimation.swift */; };
+		847A95721ADC7647000E07A7 /* SpringButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A95571ADC7647000E07A7 /* SpringButton.swift */; };
+		847A95731ADC7647000E07A7 /* SpringImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A95581ADC7647000E07A7 /* SpringImageView.swift */; };
+		847A95741ADC7647000E07A7 /* SpringLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A95591ADC7647000E07A7 /* SpringLabel.swift */; };
+		847A95751ADC7647000E07A7 /* SpringTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A955A1ADC7647000E07A7 /* SpringTextField.swift */; };
+		847A95761ADC7647000E07A7 /* SpringTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A955B1ADC7647000E07A7 /* SpringTextView.swift */; };
+		847A95771ADC7647000E07A7 /* SpringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A955C1ADC7647000E07A7 /* SpringView.swift */; };
+		847A95781ADC7647000E07A7 /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A955D1ADC7647000E07A7 /* TransitionManager.swift */; };
+		847A95791ADC7647000E07A7 /* TransitionZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A955E1ADC7647000E07A7 /* TransitionZoom.swift */; };
+		847A957A1ADC7647000E07A7 /* UnwindSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A955F1ADC7647000E07A7 /* UnwindSegue.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		847A952E1ADC68DA000E07A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 847A95101ADC68DA000E07A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 847A95171ADC68DA000E07A7;
+			remoteInfo = "Fish Bowl";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		847A95181ADC68DA000E07A7 /* Fish Bowl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fish Bowl.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		847A951C1ADC68DA000E07A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		847A951D1ADC68DA000E07A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		847A951F1ADC68DA000E07A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		847A95221ADC68DA000E07A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		847A95241ADC68DA000E07A7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		847A95271ADC68DA000E07A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		847A952D1ADC68DA000E07A7 /* Fish BowlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fish BowlTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		847A95321ADC68DA000E07A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		847A95331ADC68DA000E07A7 /* Fish_BowlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fish_BowlTests.swift; sourceTree = "<group>"; };
+		847A953D1ADC7214000E07A7 /* AddWordsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddWordsViewController.swift; sourceTree = "<group>"; };
+		847A953F1ADC7284000E07A7 /* PlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
+		847A95411ADC7344000E07A7 /* ResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		847A95441ADC7647000E07A7 /* BlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		847A95451ADC7647000E07A7 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		847A95461ADC7647000E07A7 /* DesignableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
+		847A95471ADC7647000E07A7 /* DesignableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableImageView.swift; sourceTree = "<group>"; };
+		847A95481ADC7647000E07A7 /* DesignableLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableLabel.swift; sourceTree = "<group>"; };
+		847A95491ADC7647000E07A7 /* DesignableTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTabBarController.swift; sourceTree = "<group>"; };
+		847A954A1ADC7647000E07A7 /* DesignableTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTextField.swift; sourceTree = "<group>"; };
+		847A954B1ADC7647000E07A7 /* DesignableTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTextView.swift; sourceTree = "<group>"; };
+		847A954C1ADC7647000E07A7 /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		847A954D1ADC7647000E07A7 /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
+		847A954E1ADC7647000E07A7 /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		847A954F1ADC7647000E07A7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		847A95501ADC7647000E07A7 /* KeyboardAvoidingScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardAvoidingScrollView.swift; sourceTree = "<group>"; };
+		847A95511ADC7647000E07A7 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		847A95521ADC7647000E07A7 /* LoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = "<group>"; };
+		847A95531ADC7647000E07A7 /* Misc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Misc.swift; sourceTree = "<group>"; };
+		847A95541ADC7647000E07A7 /* Spring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Spring.h; sourceTree = "<group>"; };
+		847A95551ADC7647000E07A7 /* Spring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spring.swift; sourceTree = "<group>"; };
+		847A95561ADC7647000E07A7 /* SpringAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringAnimation.swift; sourceTree = "<group>"; };
+		847A95571ADC7647000E07A7 /* SpringButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringButton.swift; sourceTree = "<group>"; };
+		847A95581ADC7647000E07A7 /* SpringImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringImageView.swift; sourceTree = "<group>"; };
+		847A95591ADC7647000E07A7 /* SpringLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringLabel.swift; sourceTree = "<group>"; };
+		847A955A1ADC7647000E07A7 /* SpringTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringTextField.swift; sourceTree = "<group>"; };
+		847A955B1ADC7647000E07A7 /* SpringTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringTextView.swift; sourceTree = "<group>"; };
+		847A955C1ADC7647000E07A7 /* SpringView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringView.swift; sourceTree = "<group>"; };
+		847A955D1ADC7647000E07A7 /* TransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionManager.swift; sourceTree = "<group>"; };
+		847A955E1ADC7647000E07A7 /* TransitionZoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionZoom.swift; sourceTree = "<group>"; };
+		847A955F1ADC7647000E07A7 /* UnwindSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnwindSegue.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		847A95151ADC68DA000E07A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847A952A1ADC68DA000E07A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		847A950F1ADC68DA000E07A7 = {
+			isa = PBXGroup;
+			children = (
+				847A951A1ADC68DA000E07A7 /* Fish Bowl */,
+				847A95301ADC68DA000E07A7 /* Fish BowlTests */,
+				847A95191ADC68DA000E07A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		847A95191ADC68DA000E07A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				847A95181ADC68DA000E07A7 /* Fish Bowl.app */,
+				847A952D1ADC68DA000E07A7 /* Fish BowlTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		847A951A1ADC68DA000E07A7 /* Fish Bowl */ = {
+			isa = PBXGroup;
+			children = (
+				847A951D1ADC68DA000E07A7 /* AppDelegate.swift */,
+				847A951F1ADC68DA000E07A7 /* ViewController.swift */,
+				847A95211ADC68DA000E07A7 /* Main.storyboard */,
+				847A95431ADC7647000E07A7 /* Spring */,
+				847A95241ADC68DA000E07A7 /* Images.xcassets */,
+				847A95261ADC68DA000E07A7 /* LaunchScreen.xib */,
+				847A951B1ADC68DA000E07A7 /* Supporting Files */,
+				847A953D1ADC7214000E07A7 /* AddWordsViewController.swift */,
+				847A953F1ADC7284000E07A7 /* PlayViewController.swift */,
+				847A95411ADC7344000E07A7 /* ResultsViewController.swift */,
+			);
+			path = "Fish Bowl";
+			sourceTree = "<group>";
+		};
+		847A951B1ADC68DA000E07A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				847A951C1ADC68DA000E07A7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		847A95301ADC68DA000E07A7 /* Fish BowlTests */ = {
+			isa = PBXGroup;
+			children = (
+				847A95331ADC68DA000E07A7 /* Fish_BowlTests.swift */,
+				847A95311ADC68DA000E07A7 /* Supporting Files */,
+			);
+			path = "Fish BowlTests";
+			sourceTree = "<group>";
+		};
+		847A95311ADC68DA000E07A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				847A95321ADC68DA000E07A7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		847A95431ADC7647000E07A7 /* Spring */ = {
+			isa = PBXGroup;
+			children = (
+				847A95441ADC7647000E07A7 /* BlurView.swift */,
+				847A95451ADC7647000E07A7 /* Data.swift */,
+				847A95461ADC7647000E07A7 /* DesignableButton.swift */,
+				847A95471ADC7647000E07A7 /* DesignableImageView.swift */,
+				847A95481ADC7647000E07A7 /* DesignableLabel.swift */,
+				847A95491ADC7647000E07A7 /* DesignableTabBarController.swift */,
+				847A954A1ADC7647000E07A7 /* DesignableTextField.swift */,
+				847A954B1ADC7647000E07A7 /* DesignableTextView.swift */,
+				847A954C1ADC7647000E07A7 /* DesignableView.swift */,
+				847A954D1ADC7647000E07A7 /* Icon */,
+				847A954E1ADC7647000E07A7 /* ImageLoader.swift */,
+				847A954F1ADC7647000E07A7 /* Info.plist */,
+				847A95501ADC7647000E07A7 /* KeyboardAvoidingScrollView.swift */,
+				847A95511ADC7647000E07A7 /* LoadingView.swift */,
+				847A95521ADC7647000E07A7 /* LoadingView.xib */,
+				847A95531ADC7647000E07A7 /* Misc.swift */,
+				847A95541ADC7647000E07A7 /* Spring.h */,
+				847A95551ADC7647000E07A7 /* Spring.swift */,
+				847A95561ADC7647000E07A7 /* SpringAnimation.swift */,
+				847A95571ADC7647000E07A7 /* SpringButton.swift */,
+				847A95581ADC7647000E07A7 /* SpringImageView.swift */,
+				847A95591ADC7647000E07A7 /* SpringLabel.swift */,
+				847A955A1ADC7647000E07A7 /* SpringTextField.swift */,
+				847A955B1ADC7647000E07A7 /* SpringTextView.swift */,
+				847A955C1ADC7647000E07A7 /* SpringView.swift */,
+				847A955D1ADC7647000E07A7 /* TransitionManager.swift */,
+				847A955E1ADC7647000E07A7 /* TransitionZoom.swift */,
+				847A955F1ADC7647000E07A7 /* UnwindSegue.swift */,
+			);
+			path = Spring;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		847A95171ADC68DA000E07A7 /* Fish Bowl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 847A95371ADC68DA000E07A7 /* Build configuration list for PBXNativeTarget "Fish Bowl" */;
+			buildPhases = (
+				847A95141ADC68DA000E07A7 /* Sources */,
+				847A95151ADC68DA000E07A7 /* Frameworks */,
+				847A95161ADC68DA000E07A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fish Bowl";
+			productName = "Fish Bowl";
+			productReference = 847A95181ADC68DA000E07A7 /* Fish Bowl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		847A952C1ADC68DA000E07A7 /* Fish BowlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 847A953A1ADC68DA000E07A7 /* Build configuration list for PBXNativeTarget "Fish BowlTests" */;
+			buildPhases = (
+				847A95291ADC68DA000E07A7 /* Sources */,
+				847A952A1ADC68DA000E07A7 /* Frameworks */,
+				847A952B1ADC68DA000E07A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				847A952F1ADC68DA000E07A7 /* PBXTargetDependency */,
+			);
+			name = "Fish BowlTests";
+			productName = "Fish BowlTests";
+			productReference = 847A952D1ADC68DA000E07A7 /* Fish BowlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		847A95101ADC68DA000E07A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = PK;
+				TargetAttributes = {
+					847A95171ADC68DA000E07A7 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					847A952C1ADC68DA000E07A7 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 847A95171ADC68DA000E07A7;
+					};
+				};
+			};
+			buildConfigurationList = 847A95131ADC68DA000E07A7 /* Build configuration list for PBXProject "Fish Bowl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 847A950F1ADC68DA000E07A7;
+			productRefGroup = 847A95191ADC68DA000E07A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				847A95171ADC68DA000E07A7 /* Fish Bowl */,
+				847A952C1ADC68DA000E07A7 /* Fish BowlTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		847A95161ADC68DA000E07A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847A95231ADC68DA000E07A7 /* Main.storyboard in Resources */,
+				847A95281ADC68DA000E07A7 /* LaunchScreen.xib in Resources */,
+				847A95251ADC68DA000E07A7 /* Images.xcassets in Resources */,
+				847A956E1ADC7647000E07A7 /* LoadingView.xib in Resources */,
+				847A956B1ADC7647000E07A7 /* Info.plist in Resources */,
+				847A95691ADC7647000E07A7 /* Icon in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847A952B1ADC68DA000E07A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		847A95141ADC68DA000E07A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847A95741ADC7647000E07A7 /* SpringLabel.swift in Sources */,
+				847A95641ADC7647000E07A7 /* DesignableLabel.swift in Sources */,
+				847A95611ADC7647000E07A7 /* Data.swift in Sources */,
+				847A956A1ADC7647000E07A7 /* ImageLoader.swift in Sources */,
+				847A95731ADC7647000E07A7 /* SpringImageView.swift in Sources */,
+				847A956F1ADC7647000E07A7 /* Misc.swift in Sources */,
+				847A95401ADC7284000E07A7 /* PlayViewController.swift in Sources */,
+				847A95761ADC7647000E07A7 /* SpringTextView.swift in Sources */,
+				847A956D1ADC7647000E07A7 /* LoadingView.swift in Sources */,
+				847A95201ADC68DA000E07A7 /* ViewController.swift in Sources */,
+				847A95711ADC7647000E07A7 /* SpringAnimation.swift in Sources */,
+				847A95701ADC7647000E07A7 /* Spring.swift in Sources */,
+				847A95681ADC7647000E07A7 /* DesignableView.swift in Sources */,
+				847A95751ADC7647000E07A7 /* SpringTextField.swift in Sources */,
+				847A95651ADC7647000E07A7 /* DesignableTabBarController.swift in Sources */,
+				847A95621ADC7647000E07A7 /* DesignableButton.swift in Sources */,
+				847A951E1ADC68DA000E07A7 /* AppDelegate.swift in Sources */,
+				847A95661ADC7647000E07A7 /* DesignableTextField.swift in Sources */,
+				847A95721ADC7647000E07A7 /* SpringButton.swift in Sources */,
+				847A95421ADC7344000E07A7 /* ResultsViewController.swift in Sources */,
+				847A953E1ADC7214000E07A7 /* AddWordsViewController.swift in Sources */,
+				847A95671ADC7647000E07A7 /* DesignableTextView.swift in Sources */,
+				847A95631ADC7647000E07A7 /* DesignableImageView.swift in Sources */,
+				847A956C1ADC7647000E07A7 /* KeyboardAvoidingScrollView.swift in Sources */,
+				847A957A1ADC7647000E07A7 /* UnwindSegue.swift in Sources */,
+				847A95781ADC7647000E07A7 /* TransitionManager.swift in Sources */,
+				847A95601ADC7647000E07A7 /* BlurView.swift in Sources */,
+				847A95771ADC7647000E07A7 /* SpringView.swift in Sources */,
+				847A95791ADC7647000E07A7 /* TransitionZoom.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847A95291ADC68DA000E07A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847A95341ADC68DA000E07A7 /* Fish_BowlTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		847A952F1ADC68DA000E07A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 847A95171ADC68DA000E07A7 /* Fish Bowl */;
+			targetProxy = 847A952E1ADC68DA000E07A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		847A95211ADC68DA000E07A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				847A95221ADC68DA000E07A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		847A95261ADC68DA000E07A7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				847A95271ADC68DA000E07A7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		847A95351ADC68DA000E07A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		847A95361ADC68DA000E07A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		847A95381ADC68DA000E07A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Fish Bowl/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		847A95391ADC68DA000E07A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Fish Bowl/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		847A953B1ADC68DA000E07A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Fish BowlTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fish Bowl.app/Fish Bowl";
+			};
+			name = Debug;
+		};
+		847A953C1ADC68DA000E07A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Fish BowlTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fish Bowl.app/Fish Bowl";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		847A95131ADC68DA000E07A7 /* Build configuration list for PBXProject "Fish Bowl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847A95351ADC68DA000E07A7 /* Debug */,
+				847A95361ADC68DA000E07A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		847A95371ADC68DA000E07A7 /* Build configuration list for PBXNativeTarget "Fish Bowl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847A95381ADC68DA000E07A7 /* Debug */,
+				847A95391ADC68DA000E07A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		847A953A1ADC68DA000E07A7 /* Build configuration list for PBXNativeTarget "Fish BowlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847A953B1ADC68DA000E07A7 /* Debug */,
+				847A953C1ADC68DA000E07A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 847A95101ADC68DA000E07A7 /* Project object */;
+}
