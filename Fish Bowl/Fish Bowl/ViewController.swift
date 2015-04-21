@@ -21,9 +21,9 @@ class ViewController: UIViewController {
         
         println(superheroes[1])
         
-        let nsarray = NSArray()
+        //let nsarray = NSArray()
         
-        nsarray.writeToFile(path!, atomically: true)
+        //nsarray.writeToFile(path!, atomically: true)
         
     }
     
