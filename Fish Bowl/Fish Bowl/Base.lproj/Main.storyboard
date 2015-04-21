@@ -269,7 +269,7 @@
                     </view>
                     <connections>
                         <outlet property="teamLabelOne" destination="qUf-ag-1LM" id="zJA-vQ-8g0"/>
-                        <outlet property="teamLabelTwo" destination="3jp-MM-13Z" id="Lbj-Kc-xl6"/>
+                        <outlet property="teamLabelTwo" destination="3jp-MM-13Z" id="Mtc-ha-CHv"/>
                         <outlet property="teamTextFieldOne" destination="syo-9d-rxM" id="3BX-3i-5yc"/>
                         <outlet property="teamTextFieldTwo" destination="w97-UM-bW3" id="KkE-MW-6J5"/>
                     </connections>

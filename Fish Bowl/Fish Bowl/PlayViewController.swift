@@ -18,23 +18,13 @@ class PlayViewController: UIViewController {
     var count = 10
     
     func result() {
-        
         count = count - 1
-        
         time.text = "\(count)"
-        
         if count <= 0 {
-            
             var questionVC = storyboard?.instantiateViewControllerWithIdentifier("ResultsViewController")
                 as! ResultsViewController
             presentViewController(questionVC, animated: true, completion: nil)
-            
             timer.invalidate()
-            
-            
-            
-            
-            
         }
     }
     

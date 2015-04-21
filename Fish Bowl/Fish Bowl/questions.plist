@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<array>
-	<string>Test string hello</string>
-	<string>Batman</string>
-	<string>Deadpool</string>
-	<string></string>
-</array>
+<dict>
+	<key>AddedQuestions</key>
+	<array>
+		<string>questions1 Batman</string>
+		<string>questions2 Superman</string>
+		<string>questions3 SpiderMan</string>
+		<string>question4 Iron Man</string>
+		<string>quesiton 5 Test</string>
+	</array>
+	<key>Team 1 Name</key>
+	<string>Team 1 test name</string>
+	<key>Team 2 Name</key>
+	<string>team 2 test name</string>
+	<key>Team 1 score</key>
+	<integer>8</integer>
+	<key>Team 2 score</key>
+	<integer>2</integer>
+</dict>
 </plist>

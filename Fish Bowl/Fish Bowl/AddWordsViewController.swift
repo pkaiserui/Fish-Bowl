@@ -23,14 +23,12 @@ class AddWordsViewController: UIViewController, UITableViewDelegate, UITableView
     
 
     @IBAction func saveToPlist(sender: AnyObject) {
-        
-        
-        
         // Add to plist
-        var nsarray = NSArray()
+        //var nsarray = NSArray()
         
-        nsarray.writeToFile(path!, atomically: true)
-
+        //nsarray.writeToFile(path!, atomically: true)
+        
+ 
     }
 
     @IBAction func teamAddButtonOne(sender: UIButton) {
@@ -42,6 +40,7 @@ class AddWordsViewController: UIViewController, UITableViewDelegate, UITableView
     
     @IBOutlet weak var teamLabelTwo: UILabel!
 
+
     
     @IBOutlet weak var teamTextFieldTwo: UITextField!
     
@@ -50,10 +49,6 @@ class AddWordsViewController: UIViewController, UITableViewDelegate, UITableView
         teamLabelTwo.text = teamTextFieldTwo.text
         
     }
-    
-    
-    
-    
     
     
 
