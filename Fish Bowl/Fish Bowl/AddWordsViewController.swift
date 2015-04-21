@@ -10,22 +10,33 @@ import UIKit
 
 class AddWordsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource{
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     // Define plist
     var questions = [String]()
     // Say plist Name
     let path = NSBundle.mainBundle().pathForResource("questions", ofType: "plist")
+
+    
+    
+    
+    
+    @IBAction func saveToPlist(sender: AnyObject) {
+        
+        
+        
+        // Add to plist
+        var nsarray = NSArray()
+        
+        nsarray.writeToFile(path!, atomically: true)
+
+    }
+    
+    
+    
+    
+    
+    
+    
+
     
     // Number of cells in table view
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
