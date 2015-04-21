@@ -26,7 +26,7 @@ class PlayViewController: UIViewController {
         if count <= 0 {
             
             var questionVC = storyboard?.instantiateViewControllerWithIdentifier("ResultsViewController")
-                as ResultsViewController
+                as! ResultsViewController
             presentViewController(questionVC, animated: true, completion: nil)
             
             timer.invalidate()
