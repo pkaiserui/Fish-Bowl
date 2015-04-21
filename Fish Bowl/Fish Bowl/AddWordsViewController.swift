@@ -10,31 +10,35 @@ import UIKit
 
 class AddWordsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource{
     
-    
-    var superheroes = [String]()
-    
+    // Define plist
+    var questions = [String]()
+    // Say plist Name
     let path = NSBundle.mainBundle().pathForResource("questions", ofType: "plist")
     
-    
-    
-    
+    // Number of cells in table view
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return superheroes.count
+        return questions.count
         
     }
     
+    // Info for Table View
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("questionCell")as! UITableViewCell
         
-        cell.textLabel?.text = superheroes[indexPath.row]
+        cell.textLabel?.text = questions[indexPath.row]
         
         return cell
     }
     
     
+    
+    
+    
+    
     override func viewDidLoad() {
+        //Makes sure the table view is loaded
         if let path = path {
-            superheroes = NSArray(contentsOfFile: path) as! [String]
+            questions = NSArray(contentsOfFile: path) as! [String]
         }
     }
     
