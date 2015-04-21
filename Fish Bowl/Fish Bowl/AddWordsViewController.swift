@@ -12,9 +12,26 @@ class AddWordsViewController: UIViewController, UITableViewDelegate, UITableView
     
     
     
+    @IBOutlet weak var teamLabelOne: UILabel!
+    
+    @IBOutlet weak var teamTextFieldOne: UITextField!
+    
+    @IBAction func teamAddButtonOne(sender: UIButton) {
+        
+        teamLabelOne.text = teamTextFieldOne.text
+        
+    }
     
     
+    @IBOutlet weak var teamLabelTwo: UILabel!
     
+    @IBOutlet weak var teamTextFieldTwo: UITextField!
+    
+    @IBAction func teamAddButtonTwo(sender: UIButton) {
+        
+        teamLabelTwo.text = teamTextFieldTwo.text
+        
+    }
     
     
     
