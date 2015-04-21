@@ -10,6 +10,18 @@ import UIKit
 
 class AddWordsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource{
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     // Define plist
     var questions = [String]()
     // Say plist Name
@@ -18,21 +30,13 @@ class AddWordsViewController: UIViewController, UITableViewDelegate, UITableView
     // Number of cells in table view
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return questions.count
-        
     }
-    
     // Info for Table View
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("questionCell")as! UITableViewCell
-        
         cell.textLabel?.text = questions[indexPath.row]
-        
         return cell
     }
-    
-    
-    
-    
     
     
     override func viewDidLoad() {
